@@ -13,6 +13,8 @@ import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.jiawa.wikidev.util.CopyUtil.copyList;
+
 @Service
 public class EbookService {
 
@@ -25,13 +27,15 @@ public class EbookService {
         criteria.andNameLike("%"+req.getName()+"%");
         List<Ebook> ebookList = ebookMapper.selectByExample(example);
 
-        List<EbookResp> ebookResps=new ArrayList<>();
-        for (Ebook e :
-                ebookList) {
-            EbookResp ebookResp=new EbookResp();
-            BeanUtils.copyProperties(e,ebookResp);
-            ebookResps.add(ebookResp);
-        }
-        return ebookResps;
+//        List<EbookResp> ebookResps=new ArrayList<>();
+//        for (Ebook e :
+//                ebookList) {
+//            EbookResp ebookResp=new EbookResp();
+//            BeanUtils.copyProperties(e,ebookResp);
+//            ebookResps.add(ebookResp);
+//        }
+
+        List<EbookResp> list = copyList(ebookList, EbookResp.class);
+        return list;
     }
 }
