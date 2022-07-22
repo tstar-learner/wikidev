@@ -202,3 +202,31 @@ Caused by: java.lang.ClassNotFoundException: com.jiawa.wikidev.service.EbookServ
 2022-07-22 14:30:48.568 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
 2022-07-22 14:30:48.571 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
 2022-07-22 14:30:48.587 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2022-07-22 17:38:16.179 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=2h5m54s490ms584µs400ns).
+2022-07-22 17:57:51.601 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=5m5s150ms208µs400ns).
+2022-07-22 19:02:39.714 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=54m17s919ms523µs500ns).
+2022-07-22 19:21:44.293 INFO  com.jiawa.wikidev.WikidevApplication              :55   [32m                  [0;39m Starting WikidevApplication using Java 1.8.0_322 on LAPTOP-ATMOILNP with PID 38164 (D:\WorkSpace\imooc\wikidev\target\classes started by Tong in D:\WorkSpace\imooc\wikidev)
+2022-07-22 19:21:44.294 INFO  com.jiawa.wikidev.WikidevApplication              :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-07-22 19:21:44.332 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-22 19:21:44.332 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-22 19:21:45.044 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-07-22 19:21:45.046 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-07-22 19:21:45.046 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-07-22 19:21:45.047 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-22 19:21:45.048 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-07-22 19:21:45.054 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-07-22 19:21:45.054 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-07-22 19:21:45.055 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-22 19:21:45.122 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-07-22 19:21:45.122 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 789 ms
+2022-07-22 19:21:45.580 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-07-22 19:21:45.591 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-07-22 19:21:45.604 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-07-22 19:21:45.612 INFO  com.jiawa.wikidev.WikidevApplication              :61   [32m                  [0;39m Started WikidevApplication in 1.666 seconds (JVM running for 2.504)
+2022-07-22 19:21:45.614 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
+2022-07-22 19:21:45.615 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-07-22 19:21:45.720 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-22 19:21:45.720 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-07-22 19:21:45.721 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-07-22 19:21:45.775 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-07-22 19:21:45.991 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
