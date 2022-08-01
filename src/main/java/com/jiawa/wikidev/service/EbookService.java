@@ -1,12 +1,14 @@
 package com.jiawa.wikidev.service;
 
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.jiawa.wikidev.domain.Ebook;
 import com.jiawa.wikidev.domain.EbookExample;
 import com.jiawa.wikidev.mapper.EbookMapper;
 import com.jiawa.wikidev.req.EbookReq;
 import com.jiawa.wikidev.resp.CommonResp;
 import com.jiawa.wikidev.resp.EbookResp;
+import com.jiawa.wikidev.resp.PageResp;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
@@ -23,13 +25,13 @@ public class EbookService {
     @Resource
     public EbookMapper ebookMapper;
 
-    public List<EbookResp> list(EbookReq req){
+    public PageResp<EbookResp> list(EbookReq req){
         EbookExample example=new EbookExample();
         EbookExample.Criteria criteria = example.createCriteria();
         if (!ObjectUtils.isEmpty(req.getName())){
             criteria.andNameLike("%"+req.getName()+"%");
         }
-        PageHelper.startPage(1,3);
+        PageHelper.startPage(req.getStart(), req.getSize());
         List<Ebook> ebookList = ebookMapper.selectByExample(example);
 
 
@@ -42,6 +44,12 @@ public class EbookService {
 //        }
 
         List<EbookResp> list = copyList(ebookList, EbookResp.class);
-        return list;
+
+        PageInfo<Ebook> pageInfo=new PageInfo<Ebook>(ebookList);
+
+        PageResp<EbookResp> pageResp=new PageResp<>();
+        pageResp.setList(list);
+        pageResp.setTotal(pageInfo.getTotal());
+        return pageResp;
     }
 }

@@ -1,6 +1,8 @@
 package com.jiawa.wikidev.req;
 
-public class EbookReq {
+import com.github.pagehelper.Page;
+
+public class EbookReq extends PageReq {
     private Long id;
 
     private String name;
