@@ -1,5 +1,6 @@
 package com.jiawa.wikidev.service;
 
+import com.github.pagehelper.PageHelper;
 import com.jiawa.wikidev.domain.Ebook;
 import com.jiawa.wikidev.domain.EbookExample;
 import com.jiawa.wikidev.mapper.EbookMapper;
@@ -28,6 +29,7 @@ public class EbookService {
         if (!ObjectUtils.isEmpty(req.getName())){
             criteria.andNameLike("%"+req.getName()+"%");
         }
+        PageHelper.startPage(1,3);
         List<Ebook> ebookList = ebookMapper.selectByExample(example);
 
 
