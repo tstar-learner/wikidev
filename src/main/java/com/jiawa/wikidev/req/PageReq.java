@@ -1,21 +1,21 @@
 package com.jiawa.wikidev.req;
 
 public class PageReq {
-    private int start;
+    private int page;
     private int size;
 
-    public int getStart() {
-        return start;
+    public int getPage() {
+        return page;
     }
 
-    public void setStart(int start) {
-        this.start = start;
+    public void setPage(int page) {
+        this.page = page;
     }
 
     @Override
     public String toString() {
         return "PageReq{" +
-                "start=" + start +
+                "page=" + page +
                 ", size=" + size +
                 '}';
     }

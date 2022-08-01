@@ -838,3 +838,575 @@ Caused by: java.lang.ClassNotFoundException: com.jiawa.wikidev.service.EbookServ
 2022-08-01 20:09:32.921 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
 2022-08-01 20:09:32.921 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
 2022-08-01 20:09:32.929 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：35 ms -------------
+2022-08-01 20:11:32.535 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:11:32.536 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:11:32.536 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:11:32.540 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:11:32.540 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:11:32.542 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:11:32.543 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:11:32.543 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:11:32.544 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
+2022-08-01 20:11:33.825 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:11:33.827 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:11:33.827 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:11:33.829 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:11:33.830 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:11:33.832 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:11:33.832 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:11:33.832 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:11:33.834 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-08-01 20:11:35.534 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:11:35.534 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:11:35.535 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:11:35.536 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:11:35.537 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:11:35.538 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:11:35.539 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:11:35.539 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:11:35.540 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-08-01 20:23:41.674 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:23:41.674 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:23:41.674 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:23:41.678 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:23:41.678 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:23:41.678 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:23:41.679 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:23:41.679 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:23:41.680 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-08-01 20:24:21.942 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:24:21.942 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:24:21.942 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:24:21.945 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:24:21.945 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:24:21.946 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:24:21.946 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:24:21.947 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:24:21.948 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：6 ms -------------
+2022-08-01 20:25:48.366 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:25:48.367 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:25:48.367 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:25:48.369 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:25:48.370 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:25:48.373 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:25:48.373 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:25:48.374 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:25:48.375 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
+2022-08-01 20:25:50.032 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:25:50.033 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:25:50.033 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:25:50.035 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:25:50.035 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:25:50.036 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:25:50.036 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:25:50.037 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:25:50.038 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-08-01 20:26:17.355 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:26:17.355 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:26:17.356 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:26:17.358 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:26:17.358 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:26:17.360 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:26:17.360 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:26:17.360 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:26:17.361 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-08-01 20:31:33.269 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:31:33.269 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:31:33.269 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:31:33.271 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:31:33.271 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:31:33.272 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:31:33.273 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:31:33.273 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:31:33.274 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-08-01 20:31:35.493 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:31:35.494 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:31:35.494 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:31:35.495 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:31:35.496 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:31:35.504 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:31:35.504 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:31:35.504 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:31:35.506 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：12 ms -------------
+2022-08-01 20:31:36.413 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:31:36.413 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:31:36.414 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:31:36.415 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:31:36.416 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:31:36.417 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:31:36.417 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:31:36.417 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:31:36.418 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：4 ms -------------
+2022-08-01 20:31:37.832 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:31:37.832 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:31:37.832 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:31:37.834 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:31:37.835 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:31:37.836 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:31:37.836 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:31:37.836 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:31:37.838 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：6 ms -------------
+2022-08-01 20:31:52.477 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:31:52.477 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:31:52.477 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:31:52.479 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:31:52.479 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:31:52.482 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:31:52.482 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:31:52.482 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:31:52.483 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：6 ms -------------
+2022-08-01 20:32:49.305 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:32:49.305 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-08-01 20:32:49.305 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:32:49.307 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:32:49.308 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:32:49.309 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:32:49.309 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:32:49.309 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:32:49.310 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-08-01 20:32:49.310 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 2(Integer)
+2022-08-01 20:32:49.311 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-08-01 20:32:49.311 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-08-01 20:32:49.311 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-08-01 20:32:49.312 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
+2022-08-01 20:32:49.313 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
+2022-08-01 20:34:24.087 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:34:24.088 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:34:24.088 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:34:24.093 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:34:24.093 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:34:24.096 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:34:24.097 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:34:24.097 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:34:24.099 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：11 ms -------------
+2022-08-01 20:34:24.636 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2022-08-01 20:34:24.641 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2022-08-01 20:34:24.778 INFO  com.jiawa.wikidev.WikidevApplication              :55   [32m                  [0;39m Starting WikidevApplication using Java 1.8.0_322 on LAPTOP-ATMOILNP with PID 73148 (D:\WorkSpace\imooc\wikidev\target\classes started by Tong in D:\WorkSpace\imooc\wikidev)
+2022-08-01 20:34:24.779 INFO  com.jiawa.wikidev.WikidevApplication              :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-08-01 20:34:24.933 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-08-01 20:34:24.933 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-08-01 20:34:24.933 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-01 20:34:24.934 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-01 20:34:24.934 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-08-01 20:34:24.934 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-08-01 20:34:24.934 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-01 20:34:24.934 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-01 20:34:24.947 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-01 20:34:24.947 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 166 ms
+2022-08-01 20:34:25.054 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-01 20:34:25.059 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-08-01 20:34:25.061 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-08-01 20:34:25.063 INFO  com.jiawa.wikidev.WikidevApplication              :61   [32m                  [0;39m Started WikidevApplication in 0.308 seconds (JVM running for 3578.792)
+2022-08-01 20:34:25.064 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-01 20:34:25.065 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
+2022-08-01 20:34:25.065 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-08-01 20:34:27.450 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 20:34:27.451 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-08-01 20:34:27.451 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-08-01 20:34:27.452 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:34:27.452 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:34:27.452 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:34:27.459 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-5 - Starting...
+2022-08-01 20:34:27.485 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-5 - Start completed.
+2022-08-01 20:34:27.486 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:34:27.487 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:34:27.489 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:34:27.490 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:34:27.491 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:34:27.497 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：45 ms -------------
+2022-08-01 20:34:28.322 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:34:28.322 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:34:28.322 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:34:28.324 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:34:28.325 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:34:28.326 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:34:28.326 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:34:28.326 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:34:28.328 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：6 ms -------------
+2022-08-01 20:35:48.902 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:35:48.902 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:35:48.902 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:35:48.905 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:35:48.905 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:35:48.907 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:35:48.907 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:35:48.907 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:35:48.909 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-08-01 20:38:01.852 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:38:01.852 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:38:01.853 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:38:01.854 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:38:01.855 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:38:01.856 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:38:01.856 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:38:01.857 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:38:01.858 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-08-01 20:38:03.014 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:38:03.014 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:38:03.014 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:38:03.016 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:38:03.017 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:38:03.018 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:38:03.019 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:38:03.019 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:38:03.020 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：6 ms -------------
+2022-08-01 20:39:05.174 INFO  com.jiawa.wikidev.WikidevApplication              :55   [32m                  [0;39m Starting WikidevApplication using Java 1.8.0_322 on LAPTOP-ATMOILNP with PID 55428 (D:\WorkSpace\imooc\wikidev\target\classes started by Tong in D:\WorkSpace\imooc\wikidev)
+2022-08-01 20:39:05.175 INFO  com.jiawa.wikidev.WikidevApplication              :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-08-01 20:39:05.207 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-01 20:39:05.208 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-01 20:39:05.858 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-08-01 20:39:05.859 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-08-01 20:39:05.860 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-01 20:39:05.860 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-01 20:39:05.862 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-08-01 20:39:05.868 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-08-01 20:39:05.869 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-01 20:39:05.869 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-01 20:39:05.934 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-01 20:39:05.934 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 726 ms
+2022-08-01 20:39:06.364 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-01 20:39:06.373 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-08-01 20:39:06.384 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-08-01 20:39:06.391 INFO  com.jiawa.wikidev.WikidevApplication              :61   [32m                  [0;39m Started WikidevApplication in 1.545 seconds (JVM running for 2.32)
+2022-08-01 20:39:06.393 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
+2022-08-01 20:39:06.393 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-08-01 20:39:11.741 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 20:39:11.741 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-08-01 20:39:11.742 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-08-01 20:39:11.746 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:39:11.746 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:39:11.747 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:39:11.821 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-08-01 20:39:12.029 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-08-01 20:39:12.035 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:39:12.049 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:39:12.060 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:39:12.061 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:39:12.062 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:39:12.102 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：355 ms -------------
+2022-08-01 20:39:14.642 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:39:14.643 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:39:14.643 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:39:14.646 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:39:14.646 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:39:14.647 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:39:14.648 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:39:14.648 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:39:14.649 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：6 ms -------------
+2022-08-01 20:39:15.402 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:39:15.402 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:39:15.402 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:39:15.405 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:39:15.405 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:39:15.407 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:39:15.407 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:39:15.408 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:39:15.409 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-08-01 20:39:17.940 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:39:17.941 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:39:17.941 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:39:17.944 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:39:17.944 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:39:17.946 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:39:17.946 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:39:17.946 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:39:17.948 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-08-01 20:39:19.738 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:39:19.738 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:39:19.738 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:39:19.741 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:39:19.742 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:39:19.743 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:39:19.743 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:39:19.744 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:39:19.745 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-08-01 20:40:57.609 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:40:57.610 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:40:57.610 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:40:57.612 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:40:57.613 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:40:57.614 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:40:57.614 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:40:57.615 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:40:57.616 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：6 ms -------------
+2022-08-01 20:41:37.576 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:41:37.577 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:41:37.577 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:41:37.579 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:41:37.580 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:41:37.581 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:41:37.581 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:41:37.582 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:41:37.583 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：6 ms -------------
+2022-08-01 20:42:18.691 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:42:18.692 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:42:18.692 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:42:18.695 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:42:18.695 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:42:18.698 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:42:18.698 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:42:18.699 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:42:18.701 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：9 ms -------------
+2022-08-01 20:42:35.564 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-08-01 20:42:35.572 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-08-01 20:42:35.659 INFO  com.jiawa.wikidev.WikidevApplication              :55   [32m                  [0;39m Starting WikidevApplication using Java 1.8.0_322 on LAPTOP-ATMOILNP with PID 55428 (D:\WorkSpace\imooc\wikidev\target\classes started by Tong in D:\WorkSpace\imooc\wikidev)
+2022-08-01 20:42:35.659 INFO  com.jiawa.wikidev.WikidevApplication              :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-08-01 20:42:35.818 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-08-01 20:42:35.818 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-08-01 20:42:35.818 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-01 20:42:35.818 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-01 20:42:35.818 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-08-01 20:42:35.819 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-08-01 20:42:35.819 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-01 20:42:35.819 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-01 20:42:35.833 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-01 20:42:35.833 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 172 ms
+2022-08-01 20:42:35.940 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-01 20:42:35.947 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-08-01 20:42:35.949 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-08-01 20:42:35.952 INFO  com.jiawa.wikidev.WikidevApplication              :61   [32m                  [0;39m Started WikidevApplication in 0.315 seconds (JVM running for 211.88)
+2022-08-01 20:42:35.954 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-01 20:42:35.954 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
+2022-08-01 20:42:35.955 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-08-01 20:42:59.570 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 20:42:59.571 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-08-01 20:42:59.571 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-08-01 20:42:59.572 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:42:59.572 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:42:59.572 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:42:59.578 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2022-08-01 20:42:59.596 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2022-08-01 20:42:59.596 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:42:59.596 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:42:59.598 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:42:59.599 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:42:59.599 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:42:59.602 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：29 ms -------------
+2022-08-01 20:43:19.331 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:43:19.331 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:43:19.332 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:43:19.341 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:43:19.342 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:43:19.343 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:43:19.344 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:43:19.344 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:43:19.346 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：14 ms -------------
+2022-08-01 20:44:15.968 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:44:15.968 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-08-01 20:44:15.969 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:44:15.975 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:44:15.975 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:44:15.976 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:44:15.977 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:44:15.977 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:44:15.979 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-08-01 20:44:15.980 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 2(Integer)
+2022-08-01 20:44:15.980 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-08-01 20:44:15.980 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-08-01 20:44:15.981 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-08-01 20:44:15.981 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
+2022-08-01 20:44:15.992 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：23 ms -------------
+2022-08-01 20:44:34.714 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:44:34.714 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-08-01 20:44:34.714 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:44:34.716 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:44:34.716 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:44:34.717 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:44:34.718 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:44:34.718 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:44:34.719 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-08-01 20:44:34.719 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 2(Integer)
+2022-08-01 20:44:34.720 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-08-01 20:44:34.720 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-08-01 20:44:34.721 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-08-01 20:44:34.721 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
+2022-08-01 20:44:34.722 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
+2022-08-01 20:44:47.621 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:44:47.621 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-08-01 20:44:47.621 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:44:47.623 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:44:47.624 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:44:47.625 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:44:47.625 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:44:47.625 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:44:47.626 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-08-01 20:44:55.783 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:44:55.784 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-08-01 20:44:55.784 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:44:55.786 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:44:55.786 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:44:55.789 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:44:55.789 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:44:55.790 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:44:55.791 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-08-01 20:45:32.190 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2022-08-01 20:45:32.196 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2022-08-01 20:45:32.320 INFO  com.jiawa.wikidev.WikidevApplication              :55   [32m                  [0;39m Starting WikidevApplication using Java 1.8.0_322 on LAPTOP-ATMOILNP with PID 55428 (D:\WorkSpace\imooc\wikidev\target\classes started by Tong in D:\WorkSpace\imooc\wikidev)
+2022-08-01 20:45:32.321 INFO  com.jiawa.wikidev.WikidevApplication              :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-08-01 20:45:32.479 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-08-01 20:45:32.479 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-08-01 20:45:32.480 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-01 20:45:32.480 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-01 20:45:32.480 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-08-01 20:45:32.480 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-08-01 20:45:32.480 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-01 20:45:32.480 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-01 20:45:32.494 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-01 20:45:32.494 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 171 ms
+2022-08-01 20:45:32.579 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-01 20:45:32.584 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-08-01 20:45:32.585 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-08-01 20:45:32.589 INFO  com.jiawa.wikidev.WikidevApplication              :61   [32m                  [0;39m Started WikidevApplication in 0.29 seconds (JVM running for 388.518)
+2022-08-01 20:45:32.590 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-01 20:45:32.590 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
+2022-08-01 20:45:32.590 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-08-01 20:46:22.044 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 20:46:22.045 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-08-01 20:46:22.045 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-08-01 20:46:22.045 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:46:22.046 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-08-01 20:46:22.046 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:46:22.053 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-3 - Starting...
+2022-08-01 20:46:22.068 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-3 - Start completed.
+2022-08-01 20:46:22.069 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:46:22.069 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:46:22.071 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:46:22.071 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:46:22.071 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:46:22.072 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-08-01 20:46:22.072 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 3(Integer)
+2022-08-01 20:46:22.073 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-08-01 20:46:22.074 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-08-01 20:46:22.074 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-08-01 20:46:22.075 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-08-01 20:46:22.075 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 3
+2022-08-01 20:46:22.082 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：36 ms -------------
+2022-08-01 20:47:32.884 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2022-08-01 20:47:32.889 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2022-08-01 20:47:32.987 INFO  com.jiawa.wikidev.WikidevApplication              :55   [32m                  [0;39m Starting WikidevApplication using Java 1.8.0_322 on LAPTOP-ATMOILNP with PID 55428 (D:\WorkSpace\imooc\wikidev\target\classes started by Tong in D:\WorkSpace\imooc\wikidev)
+2022-08-01 20:47:32.988 INFO  com.jiawa.wikidev.WikidevApplication              :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-08-01 20:47:33.117 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-08-01 20:47:33.117 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-08-01 20:47:33.117 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-08-01 20:47:33.117 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-08-01 20:47:33.117 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-08-01 20:47:33.118 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-08-01 20:47:33.118 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-01 20:47:33.118 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-01 20:47:33.130 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-01 20:47:33.130 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 140 ms
+2022-08-01 20:47:33.207 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-01 20:47:33.212 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-08-01 20:47:33.214 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-08-01 20:47:33.217 INFO  com.jiawa.wikidev.WikidevApplication              :61   [32m                  [0;39m Started WikidevApplication in 0.251 seconds (JVM running for 509.146)
+2022-08-01 20:47:33.218 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-01 20:47:33.219 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
+2022-08-01 20:47:33.219 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-08-01 20:47:33.706 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-01 20:47:33.706 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-08-01 20:47:33.707 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-08-01 20:47:33.707 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:47:33.707 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2022-08-01 20:47:33.708 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:47:33.715 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2022-08-01 20:47:33.737 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2022-08-01 20:47:33.737 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:47:33.737 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:47:33.739 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:47:33.739 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:47:33.739 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:47:33.740 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-08-01 20:47:33.740 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 3(Integer)
+2022-08-01 20:47:33.740 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-08-01 20:47:33.741 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-08-01 20:47:33.741 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-08-01 20:47:33.741 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-08-01 20:47:33.741 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 3
+2022-08-01 20:47:33.749 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：41 ms -------------
+2022-08-01 20:47:43.728 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:47:43.729 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:47:43.729 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:47:43.732 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:47:43.732 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:47:43.734 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:47:43.734 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:47:43.734 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:47:43.736 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-08-01 20:47:47.286 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:47:47.287 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:47:47.287 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:47:47.289 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:47:47.289 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:47:47.290 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:47:47.290 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:47:47.290 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:47:47.291 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：4 ms -------------
+2022-08-01 20:47:50.362 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:47:50.362 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:47:50.362 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:47:50.364 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:47:50.364 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:47:50.366 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:47:50.366 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:47:50.366 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:47:50.367 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-08-01 20:48:47.720 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:48:47.720 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:48:47.720 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:48:47.722 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:48:47.722 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:48:47.723 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:48:47.724 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:48:47.724 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:48:47.725 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-08-01 20:49:55.421 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:49:55.422 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:49:55.422 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:49:55.424 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:49:55.425 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:49:55.426 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:49:55.426 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:49:55.426 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:49:55.427 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-08-01 20:49:55.427 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 1000(Integer)
+2022-08-01 20:49:55.428 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-08-01 20:49:55.428 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-08-01 20:49:55.428 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-08-01 20:49:55.428 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-08-01 20:49:55.429 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-08-01 20:49:55.429 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-08-01 20:49:55.429 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 197250844666761216, 2, 5, 6, null, 1, null, null, null
+2022-08-01 20:49:55.430 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 6
+2022-08-01 20:49:55.431 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：9 ms -------------
+2022-08-01 20:49:58.519 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:49:58.519 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:49:58.519 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:49:58.521 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:49:58.521 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:49:58.522 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:49:58.523 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:49:58.523 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:49:58.523 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-08-01 20:49:58.524 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-08-01 20:49:58.524 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-08-01 20:49:58.524 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-08-01 20:49:58.525 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-08-01 20:49:58.525 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-08-01 20:49:58.525 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-08-01 20:49:58.525 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 4
+2022-08-01 20:49:58.527 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
+2022-08-01 20:50:00.306 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-08-01 20:50:00.306 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-08-01 20:50:00.306 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-01 20:50:00.308 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-01 20:50:00.309 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-08-01 20:50:00.310 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-01 20:50:00.310 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 6
+2022-08-01 20:50:00.310 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-08-01 20:50:00.310 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?, ?
+2022-08-01 20:50:00.311 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 4(Long), 4(Integer)
+2022-08-01 20:50:00.312 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-08-01 20:50:00.312 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-08-01 20:50:00.312 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 197250844666761216, 2, 5, 6, null, 1, null, null, null
+2022-08-01 20:50:00.312 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
+2022-08-01 20:50:00.314 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
