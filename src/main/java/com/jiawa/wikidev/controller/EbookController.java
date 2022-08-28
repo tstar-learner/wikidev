@@ -1,28 +1,35 @@
 package com.jiawa.wikidev.controller;
 
-import com.jiawa.wikidev.domain.Ebook;
-import com.jiawa.wikidev.req.EbookReq;
-import com.jiawa.wikidev.resp.CommonResp;
-import com.jiawa.wikidev.resp.EbookResp;
-import com.jiawa.wikidev.resp.PageResp;
+
 import com.jiawa.wikidev.service.EbookService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.jiawa.wikidev.req.EbookQueryReq;
+import com.jiawa.wikidev.req.EbookSaveReq;
+import com.jiawa.wikidev.resp.CommonResp;
+import com.jiawa.wikidev.resp.EbookQueryResp;
+import com.jiawa.wikidev.resp.PageResp;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 @RestController
+@RequestMapping("/ebook")
 public class EbookController {
 
     @Resource
-    public EbookService ebookService;
+    private EbookService ebookService;
 
-    @GetMapping("/ebook/list")
-    public CommonResp list(EbookReq req){
-        CommonResp<PageResp<EbookResp>> commonResp=new CommonResp<>();
-        PageResp<EbookResp> res=ebookService.list(req);
-        commonResp.setContent(res);
-        return commonResp;
+    @GetMapping("/list")
+    public CommonResp list(EbookQueryReq req) {
+        CommonResp<PageResp<EbookQueryResp>> resp = new CommonResp<>();
+        PageResp<EbookQueryResp> list = ebookService.list(req);
+        resp.setContent(list);
+        return resp;
+    }
+
+    @PostMapping("/save")
+    public CommonResp save(@RequestBody EbookSaveReq req) {
+        CommonResp resp = new CommonResp<>();
+        ebookService.save(req);
+        return resp;
     }
 }
