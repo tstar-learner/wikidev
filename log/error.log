@@ -1,5 +1,5 @@
-2022-08-28 14:29:04.350 ERROR org.springframework.boot.SpringApplication        :824  [32m                  [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\WorkSpace\imooc\wikidev\target\classes\com\jiawa\wikidev\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wikidev.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@28bc16ce]
+2022-09-02 18:08:20.825 ERROR org.springframework.boot.SpringApplication        :824  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController' defined in file [D:\WorkSpace\imooc\wikidev\target\classes\com\jiawa\wikidev\controller\CategoryController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wikidev.controller.CategoryController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@61134f9]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
@@ -19,7 +19,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wikidev.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@28bc16ce]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wikidev.controller.CategoryController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@61134f9]
 	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
 	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
@@ -28,13 +28,13 @@ Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.jiaw
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
 	... 18 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: Lcom/jiawa/wikidev/service/EbookService;
+Caused by: java.lang.NoClassDefFoundError: Lcom/jiawa/wikidev/service/CategoryService;
 	at java.lang.Class.getDeclaredFields0(Native Method)
 	at java.lang.Class.privateGetDeclaredFields(Class.java:2611)
 	at java.lang.Class.getDeclaredFields(Class.java:1944)
 	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
 	... 24 common frames omitted
-Caused by: java.lang.ClassNotFoundException: com.jiawa.wikidev.service.EbookService
+Caused by: java.lang.ClassNotFoundException: com.jiawa.wikidev.service.CategoryService
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
@@ -44,9 +44,13 @@ Caused by: java.lang.ClassNotFoundException: com.jiawa.wikidev.service.EbookServ
 	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 28 common frames omitted
-2022-08-28 14:34:20.790 ERROR org.springframework.boot.SpringApplication        :824  [32m                  [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [D:\WorkSpace\imooc\wikidev\target\classes\com\jiawa\wikidev\controller\EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wikidev.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3c1e3849]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+2022-09-02 18:13:10.322 ERROR org.springframework.boot.SpringApplication        :824  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'categoryController' method 
+com.jiawa.wikidev.controller.CategoryController#list(CategoryQueryReq)
+to {GET [/category/list]}: There is already 'categoryController' bean method
+com.jiawa.wikidev.controller.CategoryController#all() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
@@ -65,28 +69,22 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wikidev.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3c1e3849]
-	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
-	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
-	... 18 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: Lcom/jiawa/wikidev/service/EbookService;
-	at java.lang.Class.getDeclaredFields0(Native Method)
-	at java.lang.Class.privateGetDeclaredFields(Class.java:2611)
-	at java.lang.Class.getDeclaredFields(Class.java:1944)
-	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
-	... 24 common frames omitted
-Caused by: java.lang.ClassNotFoundException: com.jiawa.wikidev.service.EbookService
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:348)
-	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	... 28 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'categoryController' method 
+com.jiawa.wikidev.controller.CategoryController#list(CategoryQueryReq)
+to {GET [/category/list]}: There is already 'categoryController' bean method
+com.jiawa.wikidev.controller.CategoryController#all() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 19 common frames omitted
