@@ -661,3 +661,267 @@
 2022-09-05 17:36:57.879 INFO  com.jiawa.wikidev.service.EbookService            :46   [32m                  [0;39m 总行数：0
 2022-09-05 17:36:57.879 INFO  com.jiawa.wikidev.service.EbookService            :47   [32m                  [0;39m 总页数：0
 2022-09-05 17:36:57.880 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-09-05 17:39:09.965 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:09.966 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-09-05 17:39:09.966 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:09.968 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-09-05 17:39:09.968 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2022-09-05 17:39:09.969 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-09-05 17:39:09.969 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-09-05 17:39:09.969 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-09-05 17:39:09.969 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-09-05 17:39:09.970 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-09-05 17:39:09.970 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-09-05 17:39:09.970 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-09-05 17:39:09.970 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-09-05 17:39:09.970 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-09-05 17:39:09.970 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-09-05 17:39:09.971 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-09-05 17:39:09.971 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-09-05 17:39:09.971 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-09-05 17:39:09.971 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-09-05 17:39:09.971 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-09-05 17:39:09.972 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-09-05 17:39:09.972 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m <==      Total: 15
+2022-09-05 17:39:09.978 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：12 ms -------------
+2022-09-05 17:39:09.984 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:09.984 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-09-05 17:39:09.984 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:09.986 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-09-05 17:39:09.986 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-09-05 17:39:09.987 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-05 17:39:09.987 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2022-09-05 17:39:09.988 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-09-05 17:39:09.988 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-09-05 17:39:09.988 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-05 17:39:09.989 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-09-05 17:39:09.989 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-09-05 17:39:09.989 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 100, 101, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-09-05 17:39:09.989 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-05 17:39:09.990 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-05 17:39:09.990 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-05 17:39:09.990 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 5
+2022-09-05 17:39:09.990 INFO  com.jiawa.wikidev.service.EbookService            :46   [32m                  [0;39m 总行数：5
+2022-09-05 17:39:09.991 INFO  com.jiawa.wikidev.service.EbookService            :47   [32m                  [0;39m 总页数：1
+2022-09-05 17:39:09.992 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-09-05 17:39:21.961 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:21.961 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/save POST
+2022-09-05 17:39:21.961 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:21.969 DEBUG c.j.wikidev.mapper.EbookMapper.updateByPrimaryKey :137  [32m                  [0;39m ==>  Preparing: update ebook set `name` = ?, category1_id = ?, category2_id = ?, description = ?, cover = ?, doc_count = ?, view_count = ?, vote_count = ? where id = ?
+2022-09-05 17:39:21.969 DEBUG c.j.wikidev.mapper.EbookMapper.updateByPrimaryKey :137  [32m                  [0;39m ==> Parameters: Mysql 入门教程(String), 400(Long), 401(Long), 零基础入门 Mysql 开发，企业级应用开发最佳首选框架(String), null, null, null, null, 4(Long)
+2022-09-05 17:39:21.978 DEBUG c.j.wikidev.mapper.EbookMapper.updateByPrimaryKey :137  [32m                  [0;39m <==    Updates: 1
+2022-09-05 17:39:21.979 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：18 ms -------------
+2022-09-05 17:39:21.991 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:21.991 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-09-05 17:39:21.991 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:21.993 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-09-05 17:39:21.993 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-09-05 17:39:21.994 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-05 17:39:21.995 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2022-09-05 17:39:21.995 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-09-05 17:39:21.995 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-09-05 17:39:21.995 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-05 17:39:21.996 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-09-05 17:39:21.996 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-09-05 17:39:21.996 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 100, 101, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-09-05 17:39:21.996 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-05 17:39:21.997 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-05 17:39:21.997 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-05 17:39:21.997 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 5
+2022-09-05 17:39:21.997 INFO  com.jiawa.wikidev.service.EbookService            :46   [32m                  [0;39m 总行数：5
+2022-09-05 17:39:21.997 INFO  com.jiawa.wikidev.service.EbookService            :47   [32m                  [0;39m 总页数：1
+2022-09-05 17:39:21.998 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-09-05 17:39:31.376 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:31.376 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/save POST
+2022-09-05 17:39:31.376 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:31.377 DEBUG c.j.wikidev.mapper.EbookMapper.updateByPrimaryKey :137  [32m                  [0;39m ==>  Preparing: update ebook set `name` = ?, category1_id = ?, category2_id = ?, description = ?, cover = ?, doc_count = ?, view_count = ?, vote_count = ? where id = ?
+2022-09-05 17:39:31.378 DEBUG c.j.wikidev.mapper.EbookMapper.updateByPrimaryKey :137  [32m                  [0;39m ==> Parameters: Python 入门教程(String), 300(Long), 301(Long), 零基础入门 Python 开发，企业级应用开发最佳首选框架(String), null, null, null, null, 3(Long)
+2022-09-05 17:39:31.387 DEBUG c.j.wikidev.mapper.EbookMapper.updateByPrimaryKey :137  [32m                  [0;39m <==    Updates: 1
+2022-09-05 17:39:31.388 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：12 ms -------------
+2022-09-05 17:39:31.400 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:31.400 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-09-05 17:39:31.400 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:31.402 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-09-05 17:39:31.402 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-09-05 17:39:31.403 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-05 17:39:31.403 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2022-09-05 17:39:31.404 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-09-05 17:39:31.404 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-09-05 17:39:31.404 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-05 17:39:31.405 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-09-05 17:39:31.405 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-09-05 17:39:31.405 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 100, 101, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-09-05 17:39:31.406 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-05 17:39:31.406 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-05 17:39:31.407 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-05 17:39:31.407 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 5
+2022-09-05 17:39:31.407 INFO  com.jiawa.wikidev.service.EbookService            :46   [32m                  [0;39m 总行数：5
+2022-09-05 17:39:31.407 INFO  com.jiawa.wikidev.service.EbookService            :47   [32m                  [0;39m 总页数：1
+2022-09-05 17:39:31.410 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：10 ms -------------
+2022-09-05 17:39:32.580 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:32.581 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-09-05 17:39:32.581 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:32.582 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-09-05 17:39:32.583 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2022-09-05 17:39:32.583 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-09-05 17:39:32.583 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-09-05 17:39:32.585 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-09-05 17:39:32.585 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-09-05 17:39:32.585 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-09-05 17:39:32.585 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-09-05 17:39:32.586 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-09-05 17:39:32.586 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-09-05 17:39:32.586 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-09-05 17:39:32.586 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-09-05 17:39:32.586 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-09-05 17:39:32.586 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-09-05 17:39:32.587 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-09-05 17:39:32.587 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-09-05 17:39:32.587 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-09-05 17:39:32.587 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-09-05 17:39:32.587 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m <==      Total: 15
+2022-09-05 17:39:32.590 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：9 ms -------------
+2022-09-05 17:39:34.314 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:34.314 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-09-05 17:39:34.314 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:34.317 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (category2_id = ?)
+2022-09-05 17:39:34.318 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 301(Long)
+2022-09-05 17:39:34.318 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-05 17:39:34.319 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 1
+2022-09-05 17:39:34.319 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-09-05 17:39:34.319 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( category2_id = ? ) LIMIT ?
+2022-09-05 17:39:34.319 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 301(Long), 1000(Integer)
+2022-09-05 17:39:34.320 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-09-05 17:39:34.320 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-05 17:39:34.320 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 1
+2022-09-05 17:39:34.320 INFO  com.jiawa.wikidev.service.EbookService            :46   [32m                  [0;39m 总行数：1
+2022-09-05 17:39:34.321 INFO  com.jiawa.wikidev.service.EbookService            :47   [32m                  [0;39m 总页数：1
+2022-09-05 17:39:34.321 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-09-05 17:39:36.481 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:36.481 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-09-05 17:39:36.481 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:36.484 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (category2_id = ?)
+2022-09-05 17:39:36.484 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 302(Long)
+2022-09-05 17:39:36.485 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-05 17:39:36.485 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 0
+2022-09-05 17:39:36.485 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-09-05 17:39:36.485 INFO  com.jiawa.wikidev.service.EbookService            :46   [32m                  [0;39m 总行数：0
+2022-09-05 17:39:36.485 INFO  com.jiawa.wikidev.service.EbookService            :47   [32m                  [0;39m 总页数：0
+2022-09-05 17:39:36.486 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-09-05 17:39:39.763 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:39.763 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-09-05 17:39:39.763 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:39.766 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (category2_id = ?)
+2022-09-05 17:39:39.766 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 501(Long)
+2022-09-05 17:39:39.767 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-05 17:39:39.767 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 0
+2022-09-05 17:39:39.767 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-09-05 17:39:39.768 INFO  com.jiawa.wikidev.service.EbookService            :46   [32m                  [0;39m 总行数：0
+2022-09-05 17:39:39.768 INFO  com.jiawa.wikidev.service.EbookService            :47   [32m                  [0;39m 总页数：0
+2022-09-05 17:39:39.768 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-09-05 17:39:41.759 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:39:41.759 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-09-05 17:39:41.760 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:39:41.761 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-09-05 17:39:41.761 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2022-09-05 17:39:41.762 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-09-05 17:39:41.762 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-09-05 17:39:41.762 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-09-05 17:39:41.763 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-09-05 17:39:41.763 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-09-05 17:39:41.763 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-09-05 17:39:41.763 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-09-05 17:39:41.763 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-09-05 17:39:41.764 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-09-05 17:39:41.764 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-09-05 17:39:41.764 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-09-05 17:39:41.764 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-09-05 17:39:41.764 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-09-05 17:39:41.765 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-09-05 17:39:41.765 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-09-05 17:39:41.765 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-09-05 17:39:41.765 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m <==      Total: 15
+2022-09-05 17:39:41.767 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-09-05 17:40:00.145 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:40:00.146 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/save OPTIONS
+2022-09-05 17:40:00.146 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:40:00.147 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：1 ms -------------
+2022-09-05 17:40:00.148 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:40:00.148 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/save POST
+2022-09-05 17:40:00.148 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:40:00.154 DEBUG com.jiawa.wikidev.mapper.CategoryMapper.insert    :137  [32m                  [0;39m ==>  Preparing: insert into category (id, parent, `name`, sort) values (?, ?, ?, ?)
+2022-09-05 17:40:00.155 DEBUG com.jiawa.wikidev.mapper.CategoryMapper.insert    :137  [32m                  [0;39m ==> Parameters: 221927336172457984(Long), 0(Long), Test(String), 100(Integer)
+2022-09-05 17:40:00.159 DEBUG com.jiawa.wikidev.mapper.CategoryMapper.insert    :137  [32m                  [0;39m <==    Updates: 1
+2022-09-05 17:40:00.161 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：12 ms -------------
+2022-09-05 17:40:00.182 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:40:00.182 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-09-05 17:40:00.183 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:40:00.183 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-09-05 17:40:00.184 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2022-09-05 17:40:00.185 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-09-05 17:40:00.185 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-09-05 17:40:00.185 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 221927336172457984, 0, Test, 100
+2022-09-05 17:40:00.185 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-09-05 17:40:00.185 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-09-05 17:40:00.185 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-09-05 17:40:00.186 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-09-05 17:40:00.186 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-09-05 17:40:00.186 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-09-05 17:40:00.186 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-09-05 17:40:00.186 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-09-05 17:40:00.186 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-09-05 17:40:00.186 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-09-05 17:40:00.186 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-09-05 17:40:00.187 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-09-05 17:40:00.187 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-09-05 17:40:00.187 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-09-05 17:40:00.187 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m <==      Total: 16
+2022-09-05 17:40:00.188 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------
+2022-09-05 17:40:04.232 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:40:04.232 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-09-05 17:40:04.232 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:40:04.234 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-09-05 17:40:04.234 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2022-09-05 17:40:04.235 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-09-05 17:40:04.235 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-09-05 17:40:04.236 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 221927336172457984, 0, Test, 100
+2022-09-05 17:40:04.236 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-09-05 17:40:04.236 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-09-05 17:40:04.236 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-09-05 17:40:04.236 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-09-05 17:40:04.237 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-09-05 17:40:04.237 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-09-05 17:40:04.237 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-09-05 17:40:04.237 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-09-05 17:40:04.237 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-09-05 17:40:04.237 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-09-05 17:40:04.238 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-09-05 17:40:04.238 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-09-05 17:40:04.238 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-09-05 17:40:04.238 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-09-05 17:40:04.238 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m <==      Total: 16
+2022-09-05 17:40:04.239 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-09-05 17:40:06.656 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-05 17:40:06.656 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-09-05 17:40:06.657 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-05 17:40:06.658 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-09-05 17:40:06.658 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2022-09-05 17:40:06.659 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-09-05 17:40:06.659 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-09-05 17:40:06.659 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 221927336172457984, 0, Test, 100
+2022-09-05 17:40:06.659 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-09-05 17:40:06.660 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-09-05 17:40:06.660 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-09-05 17:40:06.660 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-09-05 17:40:06.660 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-09-05 17:40:06.660 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-09-05 17:40:06.660 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-09-05 17:40:06.660 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-09-05 17:40:06.660 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-09-05 17:40:06.661 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-09-05 17:40:06.661 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-09-05 17:40:06.661 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-09-05 17:40:06.661 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-09-05 17:40:06.661 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-09-05 17:40:06.661 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m <==      Total: 16
+2022-09-05 17:40:06.662 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：5 ms -------------

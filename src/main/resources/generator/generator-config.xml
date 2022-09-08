@@ -42,6 +42,6 @@
 
 <!--        <table tableName="demo" domainObjectName="Demo"/>-->
 <!--        <table tableName="ebook" domainObjectName="Ebook"/>-->
-        <table tableName="category"/>
+        <table tableName="doc"/>
     </context>
 </generatorConfiguration>
