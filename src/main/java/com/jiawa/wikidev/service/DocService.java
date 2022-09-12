@@ -102,4 +102,12 @@ public class DocService {
         criteria.andIdIn(ids);
         docMapper.deleteByExample(docExample);
     }
+
+    /**
+     * 显示内容
+     */
+    public String findContent(Long id){
+        Content content = contentMapper.selectByPrimaryKey(id);
+        return content.getContent();
+    }
 }

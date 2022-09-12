@@ -269,6 +269,17 @@ export default defineComponent({
       }
     };
 
+    const handleQueryContent=()=>{
+      axios.get("/doc/find-content/"+doc.value.id).then((response=>{
+        const data=response.data;
+        if (data.success){
+          editor.txt.html(data.content);
+        }else {
+          message.error(data.message);
+        }
+      }))
+    }
+
     /**
      * 编辑
      */
@@ -335,6 +346,7 @@ export default defineComponent({
       columns,
       loading,
       handleQuery,
+      handleQueryContent,
 
       edit,
       add,
