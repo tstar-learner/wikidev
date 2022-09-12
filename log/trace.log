@@ -1113,3 +1113,152 @@
 2022-09-12 17:02:46.182 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
 2022-09-12 17:02:46.182 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
 2022-09-12 17:02:46.182 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-09-12 17:14:47.106 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-12 17:14:47.106 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-12 17:14:47.107 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-09-12 17:14:47.108 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-12 17:14:47.108 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/all GET
+2022-09-12 17:14:47.108 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-12 17:14:47.112 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-3 - Starting...
+2022-09-12 17:14:47.132 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-3 - Start completed.
+2022-09-12 17:14:47.132 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-09-12 17:14:47.133 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-09-12 17:14:47.137 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-09-12 17:14:47.137 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, 文档1, 1, 0, 0
+2022-09-12 17:14:47.137 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, 文档1.1, 1, 0, 0
+2022-09-12 17:14:47.137 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, 1, 3, 文档2.1, 1, 0, 0
+2022-09-12 17:14:47.137 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 6, 1, 5, 文档2.2.1, 1, 0, 0
+2022-09-12 17:14:47.137 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, 1, 0, 文档2, 2, 0, 0
+2022-09-12 17:14:47.137 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, 1, 3, 文档2.2, 2, 0, 0
+2022-09-12 17:14:47.138 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 6
+2022-09-12 17:14:47.146 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：38 ms -------------
+2022-09-12 17:19:11.690 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-12 17:19:11.690 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/all GET
+2022-09-12 17:19:11.690 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-12 17:19:11.698 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-09-12 17:19:11.699 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-09-12 17:19:11.700 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-09-12 17:19:11.700 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, 文档1, 1, 0, 0
+2022-09-12 17:19:11.700 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, 文档1.1, 1, 0, 0
+2022-09-12 17:19:11.700 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, 1, 3, 文档2.1, 1, 0, 0
+2022-09-12 17:19:11.701 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 6, 1, 5, 文档2.2.1, 1, 0, 0
+2022-09-12 17:19:11.701 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, 1, 0, 文档2, 2, 0, 0
+2022-09-12 17:19:11.701 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, 1, 3, 文档2.2, 2, 0, 0
+2022-09-12 17:19:11.702 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 6
+2022-09-12 17:19:11.703 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：13 ms -------------
+2022-09-12 17:21:48.020 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-12 17:21:48.021 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/all GET
+2022-09-12 17:21:48.021 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-12 17:21:48.023 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-09-12 17:21:48.025 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-09-12 17:21:48.026 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-09-12 17:21:48.026 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, 文档1, 1, 0, 0
+2022-09-12 17:21:48.026 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, 文档1.1, 1, 0, 0
+2022-09-12 17:21:48.027 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, 1, 3, 文档2.1, 1, 0, 0
+2022-09-12 17:21:48.027 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 6, 1, 5, 文档2.2.1, 1, 0, 0
+2022-09-12 17:21:48.028 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, 1, 0, 文档2, 2, 0, 0
+2022-09-12 17:21:48.029 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, 1, 3, 文档2.2, 2, 0, 0
+2022-09-12 17:21:48.029 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 6
+2022-09-12 17:21:48.033 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：12 ms -------------
+2022-09-12 19:09:43.861 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h29m56s218ms328µs700ns).
+2022-09-12 19:17:38.399 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-12 19:17:38.400 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/all GET
+2022-09-12 19:17:38.400 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-12 19:17:38.402 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-09-12 19:17:38.402 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-09-12 19:17:38.404 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-09-12 19:17:38.404 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, 文档1, 1, 0, 0
+2022-09-12 19:17:38.405 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, 文档1.1, 1, 0, 0
+2022-09-12 19:17:38.405 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, 1, 3, 文档2.1, 1, 0, 0
+2022-09-12 19:17:38.405 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 6, 1, 5, 文档2.2.1, 1, 0, 0
+2022-09-12 19:17:38.405 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, 1, 0, 文档2, 2, 0, 0
+2022-09-12 19:17:38.405 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, 1, 3, 文档2.2, 2, 0, 0
+2022-09-12 19:17:38.405 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 6
+2022-09-12 19:17:38.408 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
+2022-09-12 19:17:40.662 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2022-09-12 19:17:40.668 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2022-09-12 19:17:40.793 INFO  com.jiawa.wikidev.WikidevApplication              :55   [32m                  [0;39m Starting WikidevApplication using Java 1.8.0_322 on LAPTOP-ATMOILNP with PID 36544 (D:\WorkSpace\imooc\wikidev\target\classes started by Tong in D:\WorkSpace\imooc\wikidev)
+2022-09-12 19:17:40.793 INFO  com.jiawa.wikidev.WikidevApplication              :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-12 19:17:41.031 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-09-12 19:17:41.031 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-09-12 19:17:41.031 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-09-12 19:17:41.031 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-09-12 19:17:41.032 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-09-12 19:17:41.032 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-09-12 19:17:41.032 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-09-12 19:17:41.032 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-12 19:17:41.044 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-12 19:17:41.044 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 249 ms
+2022-09-12 19:17:41.209 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-09-12 19:17:41.215 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-09-12 19:17:41.218 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-09-12 19:17:41.221 INFO  com.jiawa.wikidev.WikidevApplication              :61   [32m                  [0;39m Started WikidevApplication in 0.458 seconds (JVM running for 11912.891)
+2022-09-12 19:17:41.223 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-09-12 19:17:41.223 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
+2022-09-12 19:17:41.223 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-09-12 19:17:55.267 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-12 19:17:55.268 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-12 19:17:55.269 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-09-12 19:17:55.269 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-12 19:17:55.269 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/save OPTIONS
+2022-09-12 19:17:55.269 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-12 19:17:55.270 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：0 ms -------------
+2022-09-12 19:17:55.272 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-12 19:17:55.272 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/save POST
+2022-09-12 19:17:55.273 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-12 19:17:55.317 WARN  c.j.wikidev.controller.ControllerExceptionHandler :24   [32m                  [0;39m 参数校验失败：【内容】不能为空
+2022-09-12 19:17:55.320 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :208  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.jiawa.wikidev.resp.CommonResp com.jiawa.wikidev.controller.DocController.save(com.jiawa.wikidev.req.DocSaveReq): [Field error in object 'docSaveReq' on field 'content': rejected value [null]; codes [NotNull.docSaveReq.content,NotNull.content,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [docSaveReq.content,content]; arguments []; default message [content]]; default message [【内容】不能为空]] ]
+2022-09-12 19:17:55.320 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：47 ms -------------
+2022-09-12 19:18:00.498 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-12 19:18:00.499 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/save POST
+2022-09-12 19:18:00.499 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-12 19:18:00.504 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2022-09-12 19:18:00.527 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2022-09-12 19:18:00.527 DEBUG c.j.wikidev.mapper.DocMapper.updateByPrimaryKey   :137  [32m                  [0;39m ==>  Preparing: update doc set ebook_id = ?, parent = ?, `name` = ?, sort = ?, view_count = ?, vote_count = ? where id = ?
+2022-09-12 19:18:00.528 DEBUG c.j.wikidev.mapper.DocMapper.updateByPrimaryKey   :137  [32m                  [0;39m ==> Parameters: 1(Long), 1(Long), 文档1.1(String), 1(Integer), 0(Integer), 0(Integer), 2(Long)
+2022-09-12 19:18:00.532 DEBUG c.j.wikidev.mapper.DocMapper.updateByPrimaryKey   :137  [32m                  [0;39m <==    Updates: 1
+2022-09-12 19:18:00.532 DEBUG c.j.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m ==>  Preparing: update content set content = ? where id = ?
+2022-09-12 19:18:00.533 DEBUG c.j.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m ==> Parameters: <p>123456</p>(String), 2(Long)
+2022-09-12 19:18:00.543 DEBUG c.j.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m <==    Updates: 0
+2022-09-12 19:18:00.543 DEBUG com.jiawa.wikidev.mapper.ContentMapper.insert     :137  [32m                  [0;39m ==>  Preparing: insert into content (id, content) values (?, ?)
+2022-09-12 19:18:00.544 DEBUG com.jiawa.wikidev.mapper.ContentMapper.insert     :137  [32m                  [0;39m ==> Parameters: 2(Long), <p>123456</p>(String)
+2022-09-12 19:18:00.546 DEBUG com.jiawa.wikidev.mapper.ContentMapper.insert     :137  [32m                  [0;39m <==    Updates: 1
+2022-09-12 19:18:00.548 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：49 ms -------------
+2022-09-12 19:18:00.553 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-12 19:18:00.554 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/all GET
+2022-09-12 19:18:00.554 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-12 19:18:00.556 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-09-12 19:18:00.556 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-09-12 19:18:00.557 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-09-12 19:18:00.557 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, 文档1, 1, 0, 0
+2022-09-12 19:18:00.557 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, 文档1.1, 1, 0, 0
+2022-09-12 19:18:00.557 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, 1, 3, 文档2.1, 1, 0, 0
+2022-09-12 19:18:00.558 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 6, 1, 5, 文档2.2.1, 1, 0, 0
+2022-09-12 19:18:00.558 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, 1, 0, 文档2, 2, 0, 0
+2022-09-12 19:18:00.558 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, 1, 3, 文档2.2, 2, 0, 0
+2022-09-12 19:18:00.558 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 6
+2022-09-12 19:18:00.562 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
+2022-09-12 19:18:13.194 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-12 19:18:13.194 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/save POST
+2022-09-12 19:18:13.194 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-12 19:18:13.195 DEBUG c.j.wikidev.mapper.DocMapper.updateByPrimaryKey   :137  [32m                  [0;39m ==>  Preparing: update doc set ebook_id = ?, parent = ?, `name` = ?, sort = ?, view_count = ?, vote_count = ? where id = ?
+2022-09-12 19:18:13.196 DEBUG c.j.wikidev.mapper.DocMapper.updateByPrimaryKey   :137  [32m                  [0;39m ==> Parameters: 1(Long), 1(Long), 文档1.1(String), 1(Integer), 0(Integer), 0(Integer), 2(Long)
+2022-09-12 19:18:13.196 DEBUG c.j.wikidev.mapper.DocMapper.updateByPrimaryKey   :137  [32m                  [0;39m <==    Updates: 1
+2022-09-12 19:18:13.197 DEBUG c.j.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m ==>  Preparing: update content set content = ? where id = ?
+2022-09-12 19:18:13.197 DEBUG c.j.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m ==> Parameters: <p>123456555</p>(String), 2(Long)
+2022-09-12 19:18:13.201 DEBUG c.j.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m <==    Updates: 1
+2022-09-12 19:18:13.202 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
+2022-09-12 19:18:13.209 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-12 19:18:13.210 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/all GET
+2022-09-12 19:18:13.210 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-12 19:18:13.210 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-09-12 19:18:13.210 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-09-12 19:18:13.211 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-09-12 19:18:13.212 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, 文档1, 1, 0, 0
+2022-09-12 19:18:13.212 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, 文档1.1, 1, 0, 0
+2022-09-12 19:18:13.212 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, 1, 3, 文档2.1, 1, 0, 0
+2022-09-12 19:18:13.212 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 6, 1, 5, 文档2.2.1, 1, 0, 0
+2022-09-12 19:18:13.212 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, 1, 0, 文档2, 2, 0, 0
+2022-09-12 19:18:13.212 TRACE com.jiawa.wikidev.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, 1, 3, 文档2.2, 2, 0, 0
+2022-09-12 19:18:13.212 DEBUG com.jiawa.wikidev.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 6
+2022-09-12 19:18:13.214 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：4 ms -------------
