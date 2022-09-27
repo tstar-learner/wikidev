@@ -8,6 +8,7 @@ import com.jiawa.wikidev.exception.BusinessException;
 import com.jiawa.wikidev.exception.BusinessExceptionCode;
 import com.jiawa.wikidev.mapper.UserMapper;
 import com.jiawa.wikidev.req.UserQueryReq;
+import com.jiawa.wikidev.req.UserResetPasswordReq;
 import com.jiawa.wikidev.req.UserSaveReq;
 import com.jiawa.wikidev.resp.UserQueryResp;
 import com.jiawa.wikidev.resp.PageResp;
@@ -86,6 +87,14 @@ public class UserService {
             user.setLoginName(null);
             userMapper.updateByPrimaryKeySelective(user);
         }
+    }
+
+    /**
+     * 重置密码
+     */
+    public void resetPassword(UserResetPasswordReq req) {
+        User user = CopyUtil.copy(req, User.class);
+        userMapper.updateByPrimaryKeySelective(user);
     }
 
     public User selectByLoginName(String loginName) {

@@ -148,3 +148,356 @@
 2022-09-27 15:52:05.081 INFO  com.jiawa.wikidev.service.UserService             :47   [32m                  [0;39m 总行数：1
 2022-09-27 15:52:05.081 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总页数：1
 2022-09-27 15:52:05.082 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：13 ms -------------
+2022-09-27 16:02:11.139 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-09-27 16:02:11.149 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-09-27 16:02:11.269 INFO  com.jiawa.wikidev.WikidevApplication              :55   [32m                  [0;39m Starting WikidevApplication using Java 1.8.0_322 on LAPTOP-ATMOILNP with PID 24336 (D:\WorkSpace\imooc\wikidev\target\classes started by Tong in D:\WorkSpace\imooc\wikidev)
+2022-09-27 16:02:11.269 INFO  com.jiawa.wikidev.WikidevApplication              :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-27 16:02:11.455 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-09-27 16:02:11.455 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-09-27 16:02:11.455 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-09-27 16:02:11.455 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-09-27 16:02:11.455 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-09-27 16:02:11.456 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-09-27 16:02:11.456 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-09-27 16:02:11.456 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-27 16:02:11.470 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-27 16:02:11.471 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 200 ms
+2022-09-27 16:02:11.601 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-09-27 16:02:11.606 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-09-27 16:02:11.608 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-09-27 16:02:11.611 INFO  com.jiawa.wikidev.WikidevApplication              :61   [32m                  [0;39m Started WikidevApplication in 0.364 seconds (JVM running for 1135.304)
+2022-09-27 16:02:11.612 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-09-27 16:02:11.613 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
+2022-09-27 16:02:11.613 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-09-27 16:02:25.767 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 16:02:25.767 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-27 16:02:25.768 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-09-27 16:02:25.769 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:02:25.769 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:02:25.769 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:02:25.784 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2022-09-27 16:02:25.807 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2022-09-27 16:02:25.808 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:02:25.808 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:02:25.810 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:02:25.811 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 1
+2022-09-27 16:02:25.811 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:02:25.812 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:02:25.813 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:02:25.814 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:02:25.814 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 6eab8ac58144ee3303c9b12bedcc5f58
+2022-09-27 16:02:25.815 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:02:25.815 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：1
+2022-09-27 16:02:25.815 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:02:25.823 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：54 ms -------------
+2022-09-27 16:02:30.972 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:02:30.972 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:02:30.972 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:02:30.977 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:02:30.978 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:02:30.980 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:02:30.980 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 1
+2022-09-27 16:02:30.981 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:02:30.982 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:02:30.982 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:02:30.983 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:02:30.984 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 6eab8ac58144ee3303c9b12bedcc5f58
+2022-09-27 16:02:30.984 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:02:30.984 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：1
+2022-09-27 16:02:30.984 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:02:30.985 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：13 ms -------------
+2022-09-27 16:02:50.765 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:02:50.766 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2022-09-27 16:02:50.766 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:02:50.770 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-09-27 16:02:50.771 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:02:50.772 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-09-27 16:02:50.773 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2022-09-27 16:02:50.773 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 221927336172457984, 0, Test, 100
+2022-09-27 16:02:50.774 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-09-27 16:02:50.774 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-09-27 16:02:50.774 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-09-27 16:02:50.774 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2022-09-27 16:02:50.775 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2022-09-27 16:02:50.775 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-09-27 16:02:50.775 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2022-09-27 16:02:50.776 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2022-09-27 16:02:50.776 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2022-09-27 16:02:50.777 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-09-27 16:02:50.777 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2022-09-27 16:02:50.777 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2022-09-27 16:02:50.777 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2022-09-27 16:02:50.778 TRACE c.j.wikidev.mapper.CategoryMapper.selectByExample :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2022-09-27 16:02:50.778 DEBUG c.j.wikidev.mapper.CategoryMapper.selectByExample :137  [32m                  [0;39m <==      Total: 16
+2022-09-27 16:02:50.786 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：20 ms -------------
+2022-09-27 16:02:50.795 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:02:50.796 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2022-09-27 16:02:50.796 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:02:50.806 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-09-27 16:02:50.806 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:02:50.817 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:02:50.818 TRACE c.j.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2022-09-27 16:02:50.818 DEBUG c.j.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:02:50.818 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-09-27 16:02:50.819 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:02:50.820 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-09-27 16:02:50.821 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, 200, 202, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 0, 0
+2022-09-27 16:02:50.821 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 100, 101, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2022-09-27 16:02:50.822 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, Python 入门教程, 300, 301, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-27 16:02:50.822 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, 400, 401, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-27 16:02:50.822 TRACE c.jiawa.wikidev.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2022-09-27 16:02:50.823 DEBUG c.jiawa.wikidev.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 5
+2022-09-27 16:02:50.824 INFO  com.jiawa.wikidev.service.EbookService            :46   [32m                  [0;39m 总行数：5
+2022-09-27 16:02:50.824 INFO  com.jiawa.wikidev.service.EbookService            :47   [32m                  [0;39m 总页数：1
+2022-09-27 16:02:50.832 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：36 ms -------------
+2022-09-27 16:02:51.957 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:02:51.958 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:02:51.958 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:02:51.960 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:02:51.961 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:02:51.963 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:02:51.964 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 1
+2022-09-27 16:02:51.964 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:02:51.965 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:02:51.965 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:02:51.966 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:02:51.967 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 6eab8ac58144ee3303c9b12bedcc5f58
+2022-09-27 16:02:51.967 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:02:51.967 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：1
+2022-09-27 16:02:51.967 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:02:51.968 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：10 ms -------------
+2022-09-27 16:03:19.819 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:03:19.820 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:03:19.820 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:03:19.823 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:03:19.823 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:03:19.825 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:03:19.825 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 1
+2022-09-27 16:03:19.825 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:03:19.826 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:03:19.826 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:03:19.827 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:03:19.828 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 6eab8ac58144ee3303c9b12bedcc5f58
+2022-09-27 16:03:19.828 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:03:19.828 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：1
+2022-09-27 16:03:19.829 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:03:19.830 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：10 ms -------------
+2022-09-27 16:05:42.834 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:05:42.834 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:05:42.834 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:05:42.837 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:05:42.838 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:05:42.840 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:05:42.840 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 1
+2022-09-27 16:05:42.841 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:05:42.841 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:05:42.842 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:05:42.843 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:05:42.843 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 6eab8ac58144ee3303c9b12bedcc5f58
+2022-09-27 16:05:42.844 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:05:42.844 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：1
+2022-09-27 16:05:42.844 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:05:42.846 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：11 ms -------------
+2022-09-27 16:05:43.697 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2022-09-27 16:05:43.705 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2022-09-27 16:05:43.835 INFO  com.jiawa.wikidev.WikidevApplication              :55   [32m                  [0;39m Starting WikidevApplication using Java 1.8.0_322 on LAPTOP-ATMOILNP with PID 24336 (D:\WorkSpace\imooc\wikidev\target\classes started by Tong in D:\WorkSpace\imooc\wikidev)
+2022-09-27 16:05:43.835 INFO  com.jiawa.wikidev.WikidevApplication              :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-27 16:05:44.050 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-09-27 16:05:44.050 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-09-27 16:05:44.050 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-09-27 16:05:44.050 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-09-27 16:05:44.051 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-09-27 16:05:44.051 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-09-27 16:05:44.051 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-09-27 16:05:44.051 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-27 16:05:44.068 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-27 16:05:44.068 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 230 ms
+2022-09-27 16:05:44.236 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-09-27 16:05:44.242 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-09-27 16:05:44.245 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-09-27 16:05:44.249 INFO  com.jiawa.wikidev.WikidevApplication              :61   [32m                  [0;39m Started WikidevApplication in 0.441 seconds (JVM running for 1347.942)
+2022-09-27 16:05:44.250 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-09-27 16:05:44.250 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
+2022-09-27 16:05:44.250 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-09-27 16:05:56.154 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 16:05:56.155 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-27 16:05:56.156 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-09-27 16:05:56.157 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:05:56.157 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:05:56.157 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:05:56.171 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-3 - Starting...
+2022-09-27 16:05:56.190 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-3 - Start completed.
+2022-09-27 16:05:56.190 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:05:56.190 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:05:56.194 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:05:56.194 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 1
+2022-09-27 16:05:56.195 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:05:56.195 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:05:56.196 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:05:56.197 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:05:56.197 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 6eab8ac58144ee3303c9b12bedcc5f58
+2022-09-27 16:05:56.197 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:05:56.198 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：1
+2022-09-27 16:05:56.198 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:05:56.206 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：49 ms -------------
+2022-09-27 16:06:22.572 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:06:22.573 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:06:22.573 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:06:22.578 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:06:22.579 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:06:22.581 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:06:22.581 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 1
+2022-09-27 16:06:22.582 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:06:22.582 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:06:22.583 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:06:22.584 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:06:22.584 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 6eab8ac58144ee3303c9b12bedcc5f58
+2022-09-27 16:06:22.584 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:06:22.585 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：1
+2022-09-27 16:06:22.585 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:06:22.586 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：13 ms -------------
+2022-09-27 16:06:27.359 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:06:27.360 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password OPTIONS
+2022-09-27 16:06:27.360 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:06:27.360 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：0 ms -------------
+2022-09-27 16:06:27.362 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:06:27.362 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password POST
+2022-09-27 16:06:27.362 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:06:27.371 WARN  c.j.wikidev.controller.ControllerExceptionHandler :25   [32m                  [0;39m 参数校验失败：【密码】至少包含 数字和英文，长度6-20
+2022-09-27 16:06:27.372 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :208  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.jiawa.wikidev.resp.CommonResp com.jiawa.wikidev.controller.UserController.resetPassword(com.jiawa.wikidev.req.UserResetPasswordReq): [Field error in object 'userResetPasswordReq' on field 'password': rejected value [a1915f03b38bf54926700dfc9ea699f8]; codes [Pattern.userResetPasswordReq.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userResetPasswordReq.password,password]; arguments []; default message [password],[Ljavax.validation.constraints.Pattern$Flag;@1119a334,^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,20}$]; default message [【密码】至少包含 数字和英文，长度6-20]] ]
+2022-09-27 16:06:27.372 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：9 ms -------------
+2022-09-27 16:06:37.489 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:06:37.489 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password POST
+2022-09-27 16:06:37.489 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:06:37.490 WARN  c.j.wikidev.controller.ControllerExceptionHandler :25   [32m                  [0;39m 参数校验失败：【密码】至少包含 数字和英文，长度6-20
+2022-09-27 16:06:37.491 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :208  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.jiawa.wikidev.resp.CommonResp com.jiawa.wikidev.controller.UserController.resetPassword(com.jiawa.wikidev.req.UserResetPasswordReq): [Field error in object 'userResetPasswordReq' on field 'password': rejected value [64091f7e9a028419a50bbbcc04e13108]; codes [Pattern.userResetPasswordReq.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userResetPasswordReq.password,password]; arguments []; default message [password],[Ljavax.validation.constraints.Pattern$Flag;@1119a334,^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,20}$]; default message [【密码】至少包含 数字和英文，长度6-20]] ]
+2022-09-27 16:06:37.491 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：2 ms -------------
+2022-09-27 16:06:42.896 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:06:42.896 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password POST
+2022-09-27 16:06:42.896 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:06:42.898 WARN  c.j.wikidev.controller.ControllerExceptionHandler :25   [32m                  [0;39m 参数校验失败：【密码】至少包含 数字和英文，长度6-20
+2022-09-27 16:06:42.899 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :208  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.jiawa.wikidev.resp.CommonResp com.jiawa.wikidev.controller.UserController.resetPassword(com.jiawa.wikidev.req.UserResetPasswordReq): [Field error in object 'userResetPasswordReq' on field 'password': rejected value [ad5a533d5182b72af17af3530573020b]; codes [Pattern.userResetPasswordReq.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userResetPasswordReq.password,password]; arguments []; default message [password],[Ljavax.validation.constraints.Pattern$Flag;@1119a334,^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,20}$]; default message [【密码】至少包含 数字和英文，长度6-20]] ]
+2022-09-27 16:06:42.900 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：4 ms -------------
+2022-09-27 16:06:58.487 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:06:58.488 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:06:58.488 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:06:58.490 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:06:58.491 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:06:58.493 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:06:58.493 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 1
+2022-09-27 16:06:58.493 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:06:58.494 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:06:58.494 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:06:58.495 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:06:58.495 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 6eab8ac58144ee3303c9b12bedcc5f58
+2022-09-27 16:06:58.495 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:06:58.496 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：1
+2022-09-27 16:06:58.496 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:06:58.497 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：9 ms -------------
+2022-09-27 16:07:03.977 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:07:03.977 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password POST
+2022-09-27 16:07:03.978 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:07:03.979 WARN  c.j.wikidev.controller.ControllerExceptionHandler :25   [32m                  [0;39m 参数校验失败：【密码】至少包含 数字和英文，长度6-20
+2022-09-27 16:07:03.980 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :208  [32m                  [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.jiawa.wikidev.resp.CommonResp com.jiawa.wikidev.controller.UserController.resetPassword(com.jiawa.wikidev.req.UserResetPasswordReq): [Field error in object 'userResetPasswordReq' on field 'password': rejected value [9875b345fcffee30da59d5382fd33b3a]; codes [Pattern.userResetPasswordReq.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userResetPasswordReq.password,password]; arguments []; default message [password],[Ljavax.validation.constraints.Pattern$Flag;@1119a334,^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,20}$]; default message [【密码】至少包含 数字和英文，长度6-20]] ]
+2022-09-27 16:07:03.980 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：2 ms -------------
+2022-09-27 16:07:13.300 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:07:13.300 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/save POST
+2022-09-27 16:07:13.300 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:07:13.310 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user WHERE ( login_name = ? )
+2022-09-27 16:07:13.311 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: fdsa(String)
+2022-09-27 16:07:13.320 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 0
+2022-09-27 16:07:13.320 DEBUG com.jiawa.wikidev.mapper.UserMapper.insert        :137  [32m                  [0;39m ==>  Preparing: insert into user (id, login_name, `name`, `password`) values (?, ?, ?, ?)
+2022-09-27 16:07:13.321 DEBUG com.jiawa.wikidev.mapper.UserMapper.insert        :137  [32m                  [0;39m ==> Parameters: 229876520221544448(Long), fdsa(String), fdsa(String), 4cd004f1a03196e544adde158267e5e3(String)
+2022-09-27 16:07:13.325 DEBUG com.jiawa.wikidev.mapper.UserMapper.insert        :137  [32m                  [0;39m <==    Updates: 1
+2022-09-27 16:07:13.326 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：25 ms -------------
+2022-09-27 16:07:13.340 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:07:13.340 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:07:13.340 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:07:13.349 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:07:13.349 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:07:13.351 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:07:13.351 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 2
+2022-09-27 16:07:13.351 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:07:13.352 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:07:13.352 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:07:13.353 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:07:13.353 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 6eab8ac58144ee3303c9b12bedcc5f58
+2022-09-27 16:07:13.353 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 229876520221544448, fdsa, fdsa, 4cd004f1a03196e544adde158267e5e3
+2022-09-27 16:07:13.353 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 2
+2022-09-27 16:07:13.354 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：2
+2022-09-27 16:07:13.354 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:07:13.354 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：14 ms -------------
+2022-09-27 16:08:28.777 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2022-09-27 16:08:28.783 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2022-09-27 16:08:28.908 INFO  com.jiawa.wikidev.WikidevApplication              :55   [32m                  [0;39m Starting WikidevApplication using Java 1.8.0_322 on LAPTOP-ATMOILNP with PID 24336 (D:\WorkSpace\imooc\wikidev\target\classes started by Tong in D:\WorkSpace\imooc\wikidev)
+2022-09-27 16:08:28.909 INFO  com.jiawa.wikidev.WikidevApplication              :634  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-27 16:08:29.074 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-09-27 16:08:29.074 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-09-27 16:08:29.074 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-09-27 16:08:29.074 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-09-27 16:08:29.074 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-09-27 16:08:29.075 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-09-27 16:08:29.075 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-09-27 16:08:29.075 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-27 16:08:29.088 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-27 16:08:29.088 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m                  [0;39m Root WebApplicationContext: initialization completed in 177 ms
+2022-09-27 16:08:29.195 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-09-27 16:08:29.200 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-09-27 16:08:29.202 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-09-27 16:08:29.204 INFO  com.jiawa.wikidev.WikidevApplication              :61   [32m                  [0;39m Started WikidevApplication in 0.32 seconds (JVM running for 1512.897)
+2022-09-27 16:08:29.205 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-09-27 16:08:29.205 INFO  com.jiawa.wikidev.WikidevApplication              :19   [32m                  [0;39m 启动成功！！
+2022-09-27 16:08:29.205 INFO  com.jiawa.wikidev.WikidevApplication              :20   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2022-09-27 16:08:35.341 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 16:08:35.342 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-27 16:08:35.343 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-09-27 16:08:35.343 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:08:35.343 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password POST
+2022-09-27 16:08:35.344 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:08:35.355 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2022-09-27 16:08:35.371 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2022-09-27 16:08:35.371 DEBUG c.j.w.m.UserMapper.updateByPrimaryKeySelective    :137  [32m                  [0;39m ==>  Preparing: update user SET `password` = ? where id = ?
+2022-09-27 16:08:35.371 DEBUG c.j.w.m.UserMapper.updateByPrimaryKeySelective    :137  [32m                  [0;39m ==> Parameters: 7354a1d413535a6c0dc5c209e198d799(String), 1(Long)
+2022-09-27 16:08:35.379 DEBUG c.j.w.m.UserMapper.updateByPrimaryKeySelective    :137  [32m                  [0;39m <==    Updates: 1
+2022-09-27 16:08:35.382 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：38 ms -------------
+2022-09-27 16:08:35.394 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:08:35.395 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:08:35.395 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:08:35.406 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:08:35.406 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:08:35.408 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:08:35.408 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 2
+2022-09-27 16:08:35.409 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:08:35.410 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:08:35.410 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:08:35.410 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:08:35.410 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 7354a1d413535a6c0dc5c209e198d799
+2022-09-27 16:08:35.411 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 229876520221544448, fdsa, fdsa, 4cd004f1a03196e544adde158267e5e3
+2022-09-27 16:08:35.411 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 2
+2022-09-27 16:08:35.411 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：2
+2022-09-27 16:08:35.411 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:08:35.415 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：20 ms -------------
+2022-09-27 16:08:42.621 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:08:42.621 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password POST
+2022-09-27 16:08:42.622 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:08:42.624 DEBUG c.j.w.m.UserMapper.updateByPrimaryKeySelective    :137  [32m                  [0;39m ==>  Preparing: update user SET `password` = ? where id = ?
+2022-09-27 16:08:42.625 DEBUG c.j.w.m.UserMapper.updateByPrimaryKeySelective    :137  [32m                  [0;39m ==> Parameters: 7354a1d413535a6c0dc5c209e198d799(String), 229876520221544448(Long)
+2022-09-27 16:08:42.627 DEBUG c.j.w.m.UserMapper.updateByPrimaryKeySelective    :137  [32m                  [0;39m <==    Updates: 1
+2022-09-27 16:08:42.629 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-09-27 16:08:42.642 INFO  com.jiawa.wikidev.filter.LogFilter                :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-09-27 16:08:42.642 INFO  com.jiawa.wikidev.filter.LogFilter                :26   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2022-09-27 16:08:42.642 INFO  com.jiawa.wikidev.filter.LogFilter                :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-09-27 16:08:42.645 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-09-27 16:08:42.645 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m ==> Parameters: 
+2022-09-27 16:08:42.647 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==    Columns: count(0)
+2022-09-27 16:08:42.647 TRACE c.j.w.mapper.UserMapper.selectByExample_COUNT     :143  [32m                  [0;39m <==        Row: 2
+2022-09-27 16:08:42.648 DEBUG c.j.w.mapper.UserMapper.selectByExample_COUNT     :137  [32m                  [0;39m <==      Total: 1
+2022-09-27 16:08:42.648 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-09-27 16:08:42.649 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-09-27 16:08:42.650 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-09-27 16:08:42.650 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, ttesttre, 7354a1d413535a6c0dc5c209e198d799
+2022-09-27 16:08:42.650 TRACE c.jiawa.wikidev.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 229876520221544448, fdsa, fdsa, 7354a1d413535a6c0dc5c209e198d799
+2022-09-27 16:08:42.650 DEBUG c.jiawa.wikidev.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 2
+2022-09-27 16:08:42.651 INFO  com.jiawa.wikidev.service.UserService             :48   [32m                  [0;39m 总行数：2
+2022-09-27 16:08:42.651 INFO  com.jiawa.wikidev.service.UserService             :49   [32m                  [0;39m 总页数：1
+2022-09-27 16:08:42.652 INFO  com.jiawa.wikidev.filter.LogFilter                :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：10 ms -------------
